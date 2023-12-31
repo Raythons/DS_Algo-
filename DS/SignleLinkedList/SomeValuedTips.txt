@@ -1,0 +1,5 @@
+﻿If You Want to Control The Linked List Behavior To Make It Reversed Always
+You Can Make Just a Head Of It So You Should Alaways Insert Front But You Will Lose 
+Tail Flexibility And the Time Complixity That Tail Provide
+--------------
+U cant make operator overload To GenericType =? Use Icmplareable To Be Safer
