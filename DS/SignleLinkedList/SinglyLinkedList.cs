@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -175,7 +176,8 @@ namespace ConsoleApp1
             else
             {
                 Is_Passed = Head != Tail;
-                if (length == 2) {
+                if (length == 2)
+                {
                     Is_Passed = Head.Next == Tail;
                 }
             }
@@ -243,7 +245,6 @@ namespace ConsoleApp1
 
         }
 
-
         public bool DeleteNextNode(ref Node<T> node)
         {
             Node<T> NodeToDelete = node.Next;
@@ -258,6 +259,7 @@ namespace ConsoleApp1
 
             return true;
         }
+
         public bool DeleteByKey(T Data)
         {
             if (Data == null || length == 0) return false;
@@ -294,6 +296,7 @@ namespace ConsoleApp1
                 }
             }
         }
+
 
         public void Reverse()
         {
@@ -334,6 +337,7 @@ namespace ConsoleApp1
             }
             return true;
         }
+
         public void DeleteEvenIndexes()
         {
             // Here  u can use length To Make It Easier but ill work Around it
@@ -429,12 +433,13 @@ namespace ConsoleApp1
 
         }
 
-        private void Swap( Node<T> Node1, Node<T> Node2)
+        private void Swap(Node<T> Node1, Node<T> Node2)
         {
             Node<T> temp = Node1;
             Node1 = Node2;
             Node2 = temp;
         }
+
         public void SwapHeadTail()
         {
 
@@ -454,13 +459,249 @@ namespace ConsoleApp1
             PrevTail.Next = Head;
             Head.Next = null;
 
-            Swap( Head,  Tail);
+            Swap(Head, Tail);
             (Head, Tail) = (Tail, Head);
         }
-        
-       
 
+        public void RotateLeft(int k)
+        {
+            if (length == 0 || k % length == 0) return;
+
+            k %= length;
+
+            Node<T> BeforeHeadNode = Get_Nth(k);
+
+            // we should make it cycle Now
+            Tail.Next = Head;
+
+            // Set New Head Tail Base On Node
+            Tail = BeforeHeadNode;
+            Head = BeforeHeadNode.Next;
+
+
+            Tail.Next = null;
+        }
+
+        public void RotateRight(int k) // T
+        {
+            // TO DO
+        }
+
+        public void Remove_Dublicates()
+        {
+            // This Soultion  BigO(N^2) Time And (N) Memorey
+            // Can Be Optimized To Be Big O(n) Time And Memory 
+            if (length <= 1) return;
+
+            for (Node<T> curr1 = Head; curr1 is not null; curr1 = curr1.Next)
+            {
+                for (Node<T> curr2 = curr1.Next, Prev = curr1; curr2 is not null;)
+                {
+                    if (curr1.Data.Equals(curr2.Data))
+                    {
+                        DeleteNextNode(ref Prev);
+                        curr2 = Prev.Next;
+                    }
+                    else
+                    {
+                        Prev = curr2;
+                        curr2 = Prev.Next;
+                    }
+                }
+            }
+        }
         // Generate Key ()
+
+        public void Remove_Last_Occuranes(T Key)
+        {
+            Node<T> Delete_My_Next_Node = null;
+            bool is_found = false;
+
+            for (Node<T> curr = Head, Prev = null; curr is not null; Prev = curr, curr = curr.Next)
+            {
+                if (curr.Data.Equals(Key))
+                {
+                    is_found = true;
+                    Delete_My_Next_Node = Prev;
+                }
+            }
+
+            if (is_found)
+            {
+                if (Delete_My_Next_Node is not null)
+                    DeleteNextNode(ref Delete_My_Next_Node);
+                else
+                    DeleteFirst();
+            }
+        }
+
+        public Node<T> Move_To_End(Node<T>? prev, Node<T> curr)
+        {
+
+            if (curr == Tail) return curr;// IF  it occur just in the last one
+
+            Node<T> Next = curr.Next;
+            Tail.Next = curr;
+
+
+            if (prev is not null)
+                prev.Next = Next;
+            else
+                Head = Next;
+
+            Tail = curr;
+            Tail.Next = null;
+            return Next;
+
+        }
+        public void InsertOccuranesAtEnd(T Key)
+        {
+            if (length <= 1) return;
+
+
+            for (Node<T> curr = Head, prev = null; ; length--)
+            {
+                if (curr.Data.Equals(Key))
+                    curr = Move_To_End(prev, curr);
+                else
+                {
+                    prev = curr;
+                    curr = curr.Next;
+                }
+
+            }
+        }
+
+        private void MoveNextPtrTwoSteps(Node<T>? curr_odd, Node<T> NextEven)
+        {
+            curr_odd.Next = curr_odd.Next.Next;
+            NextEven.Next = NextEven.Next.Next;
+        }
+
+
+        private bool CheckIfNextAndNextNextExist(Node<T>? curr_odd)
+        {
+            return curr_odd.Next is not null && curr_odd.Next.Next is not null;
+        }
+
+        // This Fucntion Will make odd positions in the first section of the array
+        // leetcode 328
+        public void ArrangeOddEven()
+        {
+            if (length <= 2) return;
+
+            Node<T>? curr_odd = Head;
+            Node<T>? first_even = Head?.Next;
+
+            while (CheckIfNextAndNextNextExist(curr_odd))
+            {
+                Node<T> NextEven = curr_odd.Next;
+                MoveNextPtrTwoSteps(curr_odd, NextEven);
+                curr_odd = curr_odd.Next;
+
+                if (length % 2 == 1)
+                    Tail = NextEven;
+            }
+            curr_odd.Next = first_even;
+            //   
+        }
+
+
+
+
+        private bool IsEmpty() => this.length == 0;
+        private void Copy(SinglyLinkedList<T> Another)
+        {
+            this.Tail = Another.Tail;
+            this.Head = Another.Head;
+            this.length = Another.length;
+        }
+
+        private bool IsBothNotNull(Node<T> Node1, Node<T> Node2)
+        {
+            return (Node1 is not null && Node2 is not null);
+        }
+
+        private bool IsOneNull(Node<T> Node1, Node<T> Node2)
+        {
+            return (Node1 is not null || Node2 is not null);
+        }
+
+
+        public void Insert_Alternate(SinglyLinkedList<T> Another)
+        {
+            if (Another.IsEmpty())
+                return;
+
+            if (this.IsEmpty())
+            {
+                this.Copy(Another);
+                return;
+            }
+
+
+            Node<T> Curr2 = Another.Head;
+
+
+            for (Node<T> Curr1 = Head; IsBothNotNull(Curr1, Curr2);)
+            {
+                Node<T> Curr2NextTemp = Curr2.Next;
+                LinkAfter(Curr1, Curr2);
+                Another.length--;
+                Curr2 = Curr2NextTemp;
+
+                if (Curr1 == this.Tail)
+                {
+                    this.Tail = Another.Tail;
+                    // Here it will take the linked node and make it point to the curr2
+                    Curr1.Next.Next = Curr2;
+                    this.length += Another.length;
+                    break;
+                }
+
+                Curr1 = Curr1.Next.Next;
+            }
+
+        }
+
+        public void LinkAfter(Node<T> src, Node<T> target)
+        {
+            if (IsBothNotNull(src, target))
+            {
+                target.Next = src.Next;
+                src.Next = target;
+                length++;
+            }
+
+        }
+
+        // LeetCode Problem
+
+        // Couldnt Do It Becucase Of Generic
+
+        //public void AddTwoNumbers(SinglyLinkedList<T> Another)
+        //{
+        //    int Carry = 0;
+        //    var MyCur = Head;
+        //    var AnotherCurr = Another.Head;
+
+        //    int MyVal;
+        //    int AnotherVal;
+        //    while (MyCur != null || AnotherCurr != null)
+        //    {
+
+        //        if (MyCur != null)
+        //            MyVal = MyCur.Data;
+
+        //        if (AnotherCurr != null)
+        //        {
+        //            AnotherVal = AnotherCurr.Data;
+        //            AnotherCurr = AnotherCurr.Next;
+        //        }
+
+
+        //    }
+        //}
 
         public void Dispose()
         {

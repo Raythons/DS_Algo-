@@ -9,36 +9,39 @@ namespace ConsoleApp1
         {
             // Create a SinglyLinkedList of integers
             SinglyLinkedList<int> intList = new SinglyLinkedList<int>();
+            SinglyLinkedList<int> intList2 = new SinglyLinkedList<int>();
 
-            void Foo(StringBuilder x)
-            {
-                x = null;
-                
-            }
 
-            
 
-            StringBuilder y = new StringBuilder();
-            y.Append("hello");
-            Foo(y);
-            Console.WriteLine(y == null);
-            Console.WriteLine(y);
-            //////////////////////////////////////////////////////////////////
-            void Foo1(StringBuilder x)
-            {
-                x.Append(" world");
-            }
 
-            StringBuilder Y = new StringBuilder();
-            Y.Append("hello");
-            Foo1(Y);
-            Console.WriteLine(Y);
+            intList2.Inser_End(1);
+            intList2.Inser_End(1);
+            intList2.Inser_End(1);
+            intList2.Inser_End(2);
+            intList2.Inser_End(3);
+            intList2.Inser_End(4);
+
+
+            intList.Insert_Alternate(intList2);
+
+            intList.Print();
+            // StringBuilder y = new StringBuilder();
+            // y.Append("hello");
+            // Foo(y);
+            // Console.WriteLine(y == null);
+            // Console.WriteLine(y);
+            // //////////////////////////////////////////////////////////////////
+            // void Foo1(StringBuilder x)
+            // {
+            //     x.Append(" world");
+            // }
+
+            // StringBuilder Y = new StringBuilder();
+            // Y.Append("hello");
+            // Foo1(Y);
+            // Console.WriteLine(Y);
             // Insert elements at the beginning
-            //intList.Insert_Front(5);
-            //intList.Insert_Front(4);
-            //intList.Insert_Front(3);
-            //intList.Insert_Front(2);
-            //intList.Insert_Front(1);
+
 
             //intList.SwapHeadTail();
 
