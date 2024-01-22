@@ -1,0 +1,15 @@
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\bin\Debug\net7.0\DobuleLinkedList.exe
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\bin\Debug\net7.0\DobuleLinkedList.deps.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\bin\Debug\net7.0\DobuleLinkedList.runtimeconfig.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\bin\Debug\net7.0\DobuleLinkedList.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\bin\Debug\net7.0\DobuleLinkedList.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.AssemblyInfoInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.AssemblyInfo.cs
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.sourcelink.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\refint\DobuleLinkedList.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\DobuleLinkedList.genruntimeconfig.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\DobuleLinkedList\obj\Debug\net7.0\ref\DobuleLinkedList.dll
