@@ -4,26 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stack
+namespace MyStack
 {
-    public class Stack
+    public class MyStack
 
     {
         public int size { get; set; }
         public int[] array { get; set; } = { };
-        public int top {  get; set; }
+        public int top { get; set; }
 
-        public Stack(int size ) { 
+        public MyStack(int size)
+        {
             this.size = size;
             array = new int[size];
-            top =-1;
+            top = -1;
         }
-        private  bool isFull()
+        private bool isFull()
         {
             return top == size - 1;
         }
 
-        public bool isEmpty ()
+        public bool isEmpty()
         {
             return top == 0;
         }
@@ -39,11 +40,11 @@ namespace Stack
             return array[top--];
         }
 
-      
+
         public int Peek()
         {
-             if(isEmpty()) throw new Exception();
-             return array[top];
+            if (isEmpty()) throw new Exception();
+            return array[top];
         }
 
         public void display()
