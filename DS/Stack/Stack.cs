@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyStack
+namespace MyStacko
 {
     public class MyStack
 
@@ -26,7 +26,7 @@ namespace MyStack
 
         public bool isEmpty()
         {
-            return top == 0;
+            return top == -1;
         }
         public void Push(int x)
         {
@@ -34,6 +34,35 @@ namespace MyStack
             array[++top] = x;
         }
 
+
+        private void InsertAtBottom(int x, MyStack myStack = null)
+        {
+            if (myStack.isEmpty())
+            {
+                myStack.Push(x);
+                return;
+            }
+
+            int item = myStack.Pop();
+            InsertAtBottom(x, this);
+            myStack.Push(item);
+        }
+
+        public void InsertAtBottom(int x)
+        {
+            InsertAtBottom(x, this);
+        }
+
+        public void reverse()
+        {
+            if (isEmpty())
+                return;
+            // 1,2,3,4
+            int element = this.Pop();
+            reverse();
+
+            InsertAtBottom(element);
+        }
         public int Pop()
         {
             if (isEmpty()) throw new Exception();

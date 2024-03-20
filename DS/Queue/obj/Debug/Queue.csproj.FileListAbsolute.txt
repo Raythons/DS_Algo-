@@ -1,0 +1,7 @@
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\bin\Debug\Queue.exe.config
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\bin\Debug\Queue.exe
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\bin\Debug\Queue.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\obj\Debug\Queue.exe
+C:\Users\H1202\Desktop\DS_ALgo\DS\Queue\obj\Debug\Queue.pdb

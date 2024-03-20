@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleLinkedList", "SingleL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DobuleLinkedList", "..\DobuleLinkedList\DobuleLinkedList.csproj", "{53C66A63-1730-4AB2-9BFE-DFE17779BBAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "..\Stack\Stack.csproj", "{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "..\Stack\Stack.csproj", "{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "..\Queue\Queue.csproj", "{172C5BE9-702E-4C70-9B60-3F439E9F41E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "..\Tree\Tree.csproj", "{A8366792-1C4A-4D33-A439-A655FE2872BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreees", "..\BinaryTreees\BinaryTreees.csproj", "{2FFEC613-468B-450E-9432-BD006184145D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172C5BE9-702E-4C70-9B60-3F439E9F41E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172C5BE9-702E-4C70-9B60-3F439E9F41E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172C5BE9-702E-4C70-9B60-3F439E9F41E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172C5BE9-702E-4C70-9B60-3F439E9F41E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8366792-1C4A-4D33-A439-A655FE2872BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8366792-1C4A-4D33-A439-A655FE2872BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8366792-1C4A-4D33-A439-A655FE2872BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8366792-1C4A-4D33-A439-A655FE2872BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFEC613-468B-450E-9432-BD006184145D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFEC613-468B-450E-9432-BD006184145D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFEC613-468B-450E-9432-BD006184145D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFEC613-468B-450E-9432-BD006184145D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
