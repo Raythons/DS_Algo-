@@ -34,17 +34,37 @@ void NextGreaterNum(int[] v, int len)
 
 // leetCode Score Of Parentheses
 // to do
+
 int ParenthesesScore(string s)
 {
-    Stack<char> ParenthesesStk = new();
+    Stack<int> StackScore = new(s.Length);
+
+    StackScore.Push(0);
+
     for (int i = 0; i < s.Length; i++)
     {
-        if (IsLeftParen(s[i]))
+        char c = s[i];
+        if (s[i] == '(')
+            StackScore.Push(0);
+        else
         {
-            ParenthesesStk.Push(s[i]);
+            //(()(()))
+            //  LAST = 1 
+            int last = StackScore.Pop();
+
+            if (last == 0)
+                last = 1;
+            else
+                last *= 2;
+
+
+            int ParentPar =  StackScore.Peek() + last;
+            StackScore.Pop();
+            StackScore.Push(ParentPar);
         }
+
     }
-    return 1;
+    return StackScore.Peek() ;
 }
 
 
@@ -63,18 +83,76 @@ myStack.Push(4);
 
 
 //
-int[] Asteroids = new int[] { 8, -8 };
+int[] Asteroids = new int[] { -2, -2, 1, -2 };
 // Asteroid Collision 
+
+
 var AsteroidList = AsteroidCollision(Asteroids);
+
+for (int i = 0; i < AsteroidList.Length ; i++)
+{
+    Console.WriteLine(AsteroidList[i]);
+
+}
 
 bool WillCollision(int el1, int el2)
 {
-    if (el1 > 0 && el2 < 0)
+    if (el1 < 0 && 0 <= el2 )
         return true;
     return false;
 }
 
-Stack<int> AsteroidCollision(int[] asteroids)
+
+int[] CopyArrayFromStack(Stack<int> stack)
+{
+    if (stack.Count == 0)
+    {
+        return Array.Empty<int>();
+    }
+
+    int[] arr = new int[stack.Count];
+
+    for (int i = arr.Length - 1; i > 0; i--)   
+        arr[i] = stack.Pop();
+    
+    return arr;
+
+}
+
+
+int[] AsteroidsCollision(int[] asteroids)
+{
+    Stack<int> AsteroidsStk = new();
+
+    
+    for (int i = 0; i < asteroids.Length; i++)
+    {
+        int asteroid = asteroids[i];
+
+        bool is_exploded = false;
+        while (AsteroidsStk.Count != 0 && WillCollision(asteroid, AsteroidsStk.Peek()))
+        {
+            if(AsteroidsStk.Peek() < -asteroid)
+            {
+                AsteroidsStk.Pop();
+                continue;
+            } 
+            else if (AsteroidsStk.Peek() == -asteroid)        
+                AsteroidsStk.Pop();
+
+            is_exploded = true;
+            break;           
+        }
+        if(!is_exploded)
+            AsteroidsStk.Push(asteroid);
+    }
+   
+    asteroids = CopyArrayFromStack(AsteroidsStk);
+    
+    return asteroids;
+}
+
+int[] AsteroidCollision(int[] asteroids)
 {
     Stack<int> AsteroidsStk = new();
 
@@ -82,16 +160,36 @@ Stack<int> AsteroidCollision(int[] asteroids)
     for (int i = 0; i < asteroids.Length; i++)
     {
         element = asteroids[i];
-        if (AsteroidsStk.Count != 0 && WillCollision(AsteroidsStk.Peek(), element))
+        if (AsteroidsStk.Count != 0 && WillCollision(element, AsteroidsStk.Peek()))
         {
+            bool IsExploded = false;
             while (AsteroidsStk.Count != 0 && AsteroidsStk.Peek() <= -element)
-                AsteroidsStk.Pop();
+            {
+                if(AsteroidsStk.Peek() == -element)
+                {
+                    IsExploded = true;
+                    AsteroidsStk.Pop();
+                    break;
+                }
+                AsteroidsStk.Pop();                               
+            }
+            if (IsExploded == false)
+                AsteroidsStk.Push(element);
         }
         else
             AsteroidsStk.Push(element);
     }
+    if (AsteroidsStk.Count == 0)
+        return new int[0]; 
 
-    return AsteroidsStk;
+    asteroids = new int[AsteroidsStk.Count];
+ 
+    for (int i = asteroids.Length - 1;   i > 0; i--)
+    {
+        asteroids[i] = AsteroidsStk.Pop();
+    }
+
+    return asteroids;
 }
 
 
@@ -154,10 +252,10 @@ static string InfixToPostFix(string Infix)
 
 
 
-string str = "accxggxas";
+string str = "abbaca";
 str = Remove_Dublicate(str);
 
-// Console.WriteLine(str);
+Console.WriteLine(str);
 
 
 // LeetCode
@@ -168,13 +266,8 @@ static string Remove_Dublicate(string str)
     for (int i = 0; i < str.Length; i++)
     {
         char ch = str[i];
-        if (Characters.Count != 0 && Characters.Peek() == ch)
-        //ch = a
-        //ch = ac
-        //ch = acaca
-        {
-            Characters.Pop();
-        }
+        if (Characters.Count != 0 && Characters.Peek() == ch)       
+            Characters.Pop();      
         else
             Characters.Push(ch);
     }
@@ -182,17 +275,17 @@ static string Remove_Dublicate(string str)
     string NewStr = "";
     while (Characters.Count != 0)
     {
-        NewStr += Characters.Pop();
+        NewStr  = Characters.Pop() + NewStr;
     }
     return NewStr;
 }
 
 
-// string exp = "{}}";
+ string exp = "()";
 
-// bool IsValidExp = isValidParens(exp);
+bool IsValidExp = isValidParens(exp);
 
-// Console.WriteLine(IsValidExp.ToString());
+Console.WriteLine(IsValidExp.ToString());
 
 static bool IsLeftParen(char paran)
 {
@@ -206,8 +299,8 @@ static char GetOpenParen(char ch)
         return '[';
     if (ch == '}')
         return '{';
-    if (ch == '(')
-        return ')';
+    if (ch == ')')
+        return '(';
     return 'n';
 }
 // LeetCode Problem  20
@@ -225,33 +318,29 @@ static bool isValidParens(string str)
     return Parentheses.Count == 0;
 }
 
+Console.ReadLine();
 
+int reversed = Reverse_Int(1234);
 
-
-
-
-// int reversed = Reverse_Int(1234);
-
-// Console.WriteLine(reversed);
-
-// static int Reverse_Int(int number)
-// {
-//     Stack<int> st = new Stack<int>();
-//     int Reversed = 0;
-//     while (number > 0)
-//     {
-//         int digit = number % 10;
-//         number /= 10;
-//         st.Push(digit);
-//     }
-//     int tens = 1;
-//     while (st.Count != 0)
-//     {
-//         Reversed += st.Pop() * tens;
-//         tens *= 10;
-//     }
-//     return Reversed;
-// }
+Console.WriteLine(reversed);
+static int Reverse_Int(int number)
+{
+    Stack<int> st = new Stack<int>();
+    int Reversed = 0;
+    while (number > 0)
+    {
+        int digit = number % 10;
+        number /= 10;
+        st.Push(digit);
+    }
+    int tens = 1;
+    while (st.Count != 0)
+    {
+        Reversed += st.Pop() * tens;
+        tens *= 10;
+    }
+    return Reversed;
+}
 
 
 
@@ -270,13 +359,12 @@ static string Reverse_String(ref string Str)
     {
         if (Str[i] == ' ')
         {
-            while (st.Count != 0)
-            {
+            while (st.Count != 0)           
                 Reversed += st.Pop();
-            }
             Reversed += ' ';
-        }
-        st.Push(Str[i]);
+        } 
+        else
+            st.Push(Str[i]);
     }
     return Reversed;
 }

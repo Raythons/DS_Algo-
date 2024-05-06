@@ -1,0 +1,15 @@
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\bin\Debug\net7.0\MyBinaryTrees.exe
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\bin\Debug\net7.0\MyBinaryTrees.deps.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\bin\Debug\net7.0\MyBinaryTrees.runtimeconfig.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\bin\Debug\net7.0\MyBinaryTrees.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\bin\Debug\net7.0\MyBinaryTrees.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.AssemblyInfoInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.AssemblyInfo.cs
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.sourcelink.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\refint\MyBinaryTrees.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\MyBinaryTrees.genruntimeconfig.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\MyBinaryTrees\obj\Debug\net7.0\ref\MyBinaryTrees.dll

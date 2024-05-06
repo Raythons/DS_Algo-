@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Numerics;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,6 +33,29 @@ namespace BinaryTreees
             _PrintInOrder(root);
             Console.WriteLine();
         }
+
+
+        private TreeNode SortedArrayToBST(int[] nums, int start, int end)
+        {
+            if (start > end)
+                return null;
+
+            int mid = (start + end) / 2;
+
+            TreeNode root = new TreeNode(nums[mid]);
+
+            root.left = SortedArrayToBST(nums, start, mid - 1);
+            root.left = SortedArrayToBST(nums, mid + 1, end);
+            return root;
+
+        }
+        public TreeNode SortedArrayToBST(int[] nums)
+        {
+            return SortedArrayToBST(nums, 0, nums.Length - 1);
+        }
+
+   
+
         public void Add(List<int> values, List<char> direction)
         {
             if (values.Count != direction.Count)
@@ -59,6 +83,83 @@ namespace BinaryTreees
             }
         }
 
+        private bool isMirror(TreeNode? first, TreeNode? second)
+        {
+            if (first is null && second is null)
+                return true;
+
+            if (
+                first is null && second.right is not null ||
+                first is not null && second is null ||
+                first.data != second.data
+                )
+                return false;
+
+            return isMirror(first.left, second.right) && isMirror(first.right, second.left);
+
+        }
+
+        public bool IsSymmetric1Tree101(TreeNode root)
+        {
+            if (root is null)
+                return true;
+            if (root.left is null && root.right != null
+                || root.left != null && root.right == null)
+                return false;
+
+            return isMirror(root.left, root.right);
+        }
+
+
+        private string Parenthesize(TreeNode? curr, bool isLeft = true)
+        {
+            if (curr is null) return "()";
+
+            string representation = "(" + curr.ToString();
+
+            if (isLeft)
+            {
+                if (curr.left is not null)
+                    representation += Parenthesize(curr.left, isLeft);
+                else
+                    representation += "()";
+
+                if (curr.right is not null)
+                    representation += Parenthesize(curr.right, isLeft);
+                else
+                    representation += "()";
+            }
+            else
+            {
+                if (curr.right is not null)
+                    representation += Parenthesize(curr.right, isLeft);
+                else
+                    representation += "()";
+
+                if (curr.left is not null)
+                    representation += Parenthesize(curr.left, isLeft);
+                else
+                    representation += "()";
+            }
+            representation += ")";
+
+            return representation;
+        }
+
+        public bool IsSymmetric1Tree101UsingParen(TreeNode root)
+        {
+            if (root is null)
+                return true;
+            if (root.left is null && root.right is null) return true;
+
+            if (root.left is null && root.right != null
+                || root.left != null && root.right == null)
+                return false;
+
+            return Parenthesize(root.left, true) == Parenthesize(root.right, false);
+        }
+
+
 
         public bool _IsFullTree(TreeNode curr)
         {
@@ -82,7 +183,8 @@ namespace BinaryTreees
             return (curr.left is not null && curr.right is not null) || (curr.left is null && curr.right is null);
         }
 
-        public bool IsFullTree(TreeNode root) {
+        public bool IsFullTree(TreeNode root)
+        {
             return _IsFullTree(root);
         }
         private int _SumOfLeft(TreeNode curr)
@@ -120,17 +222,17 @@ namespace BinaryTreees
 
         public string ParenthesizeCanonical(TreeNode root)
         {
-            if (root is null) 
+            if (root is null)
                 return "()";
 
-            string repr   = "(" +root.data.ToString();
+            string repr = "(" + root.data.ToString();
             List<string> v = new List<string>();
 
             if (root.left is not null)
                 v.Add(ParenthesizeCanonical(root.left));
             else
                 v.Add("()");
-            
+
             if (root.right is not null)
                 v.Add(ParenthesizeCanonical(root.right));
             else
@@ -183,20 +285,20 @@ namespace BinaryTreees
             if (root is null)
                 return (false, 0);
 
-            if (root.left is null && root.right is null )
-                return (true,1);
+            if (root.left is null && root.right is null)
+                return (true, 1);
 
             var left = IsPerfectTreeBigON(root.left);
             var right = IsPerfectTreeBigON(root.right);
 
             bool perfect = left.Item1 && right.Item1 && (left.Item2 == right.Item2);
 
-            return (perfect, 1 + left.Item2 +  right.Item2);
-         }
+            return (perfect, 1 + left.Item2 + right.Item2);
+        }
 
         public void PrintLevelOrder(TreeNode root)
         {
-            Queue<TreeNode> NodesQueue = new ();
+            Queue<TreeNode> NodesQueue = new();
             NodesQueue.Enqueue(root);
 
 
@@ -239,19 +341,19 @@ namespace BinaryTreees
                 }
                 level++;
             }
-              
+
             Console.WriteLine();
         }
 
 
         // Deqeueu Is Data Strcture GG
         public List<List<int>> PrintLevelZigZag(TreeNode root)
-        {          
+        {
             LinkedList<TreeNode> NodesQueue = new();
 
             NodesQueue.AddFirst(root);
 
-            bool ForwardLevel = true;  
+            bool ForwardLevel = true;
             List<List<int>> res = new();
 
             while (NodesQueue.Count != 0)
@@ -303,11 +405,11 @@ namespace BinaryTreees
 
             (int delim, int height) left_dlim = (0, 0);
             (int delim, int height) right_dlim = (0, 0);
-           
+
             if (root.left is not null)
             {
                 left_dlim = DiameterOfBinmaryTree(root.left);
-                
+
                 res.delim += 1 + left_dlim.height;
             }
             if (root.right is not null)
@@ -328,8 +430,8 @@ namespace BinaryTreees
                 return h == 0;
 
             if (_CheckIfOneOfChildsNull(root))
-                    return false;
- 
+                return false;
+
             return _IsPerfectTreeBetter(root.left, h - 1) && _IsPerfectTreeBetter(root.right, h - 1);
         }
 
@@ -337,32 +439,33 @@ namespace BinaryTreees
         {
             return root.left is null && root.right is not null || root.right is null && root.left is not null;
         }
-        public bool IsPerfectTreeBetter(TreeNode root) {
+        public bool IsPerfectTreeBetter(TreeNode root)
+        {
             return _IsPerfectTreeBetter(root, this.MaximmumDepthEasy2(this.root));
         }
-  
-        public bool IsCousion5EasyBetterWay(TreeNode root , int x , int y)
+
+        public bool IsCousion5EasyBetterWay(TreeNode root, int x, int y)
         {
-            if(FindNodeDepth(root, x) != FindNodeDepth(root, y))
+            if (FindNodeDepth(root, x) != FindNodeDepth(root, y))
                 return false;
 
 
-            if(FindParentNode(root,x, root) == FindParentNode(root, x, root))
-                 return false;
+            if (FindParentNode(root, x, root) == FindParentNode(root, x, root))
+                return false;
 
             return true;
         }
 
-        private TreeNode FindParentNode(TreeNode root, int value , TreeNode Prent)
+        private TreeNode FindParentNode(TreeNode root, int value, TreeNode Prent)
         {
             if (root is null)
-                return null ;
-            
+                return null;
+
             if (root.data == value)
                 return Prent;
 
             TreeNode leftParent = FindParentNode(root.left, value, root);
-            if (leftParent is not  null)
+            if (leftParent is not null)
                 return leftParent;
 
             return FindParentNode(root.right, value, root);
@@ -372,9 +475,9 @@ namespace BinaryTreees
         {
             if (root is null)
                 return 0;
-            
-             if (root.data == value)
-                    return CurrDepth;
+
+            if (root.data == value)
+                return CurrDepth;
 
             int LeftDpeth = FindNodeDepth(root.left, value, CurrDepth + 1);
             if (LeftDpeth != 0)
@@ -385,52 +488,53 @@ namespace BinaryTreees
         }
 
         public int SumOfLeft(TreeNode curr) => _SumOfLeft(curr);
-        public int MaxValueEasy1 (TreeNode curr ) {
+        public int MaxValueEasy1(TreeNode curr)
+        {
 
             if (curr is null)
                 return 0;
-            
 
-            return int.Max(curr.data,int.Max(MaxValueEasy1(curr.left), MaxValueEasy1(curr.right)));
+
+            return int.Max(curr.data, int.Max(MaxValueEasy1(curr.left), MaxValueEasy1(curr.right)));
         }
         //1   for 3 +  1 for 9 +  left now is 2 || right =>   1 for 20 +  ; 
         public int MaximmumDepthEasy2(TreeNode curr)
         {
             if (curr is null) return 0;
-            return  1 + int.Max(MaximmumDepthEasy2(curr.left), MaximmumDepthEasy2(curr.right));
+            return 1 + int.Max(MaximmumDepthEasy2(curr.left), MaximmumDepthEasy2(curr.right));
         }
 
-        public bool IsPathSum(TreeNode curr , int Value,  int Sum = 0)
+        public bool IsPathSum(TreeNode curr, int Value, int Sum = 0)
         {
-            if (curr  is null )        
+            if (curr is null)
                 return false;
-             
+
             // n of sum 
-           
+
             Sum += curr.data;
             if (curr.left is null && curr.right is null)
             {
                 if (Value != Sum)
-                    Sum -= curr.data;  
+                    Sum -= curr.data;
                 return Value == Sum;
             }
-                      
-            return IsPathSum(curr.left, Value, Sum ) || IsPathSum(curr.right, Value, Sum);
+
+            return IsPathSum(curr.left, Value, Sum) || IsPathSum(curr.right, Value, Sum);
         }
 
         public bool PathSum(int Value)
         {
-             return IsPathSum(root, Value);
+            return IsPathSum(root, Value);
         }
-        
-        public bool PathSum_TeacherSolution(TreeNode root , int targetSum)
+
+        public bool PathSum_TeacherSolution(TreeNode root, int targetSum)
         {
             if (root is null) return false;
 
             if (isLeafNode(root) && targetSum == root.data)
                 return true;
 
-            return PathSum_TeacherSolution(root.left, targetSum -  root.data ) ||
+            return PathSum_TeacherSolution(root.left, targetSum - root.data) ||
                     PathSum_TeacherSolution(root.right, targetSum - root.data);
         }
 
