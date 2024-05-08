@@ -151,22 +151,16 @@ namespace BinaryTreees
             return Parenthesize(root.left, true) == Parenthesize(root.right, false);
         }
 
-
-
         public bool _IsFullTree(TreeNode curr)
         {
             if (curr is null)
                 return true;
-
             if (!IsFullNode(curr))
                 return false;
-
             var IsLeftTreeFull = _IsFullTree(curr.left);
             var IsRightTreeFull = _IsFullTree(curr.right);
-
             if (IsLeftTreeFull && IsRightTreeFull)
                 return true;
-
             return false;
         }
 
@@ -480,13 +474,16 @@ namespace BinaryTreees
         }
 
         public int SumOfLeft(TreeNode curr) => _SumOfLeft(curr);
+
         public int MaxValueEasy1(TreeNode curr)
         {
             if (curr is null)
                 return 0;
             return int.Max(curr.data, int.Max(MaxValueEasy1(curr.left), MaxValueEasy1(curr.right)));
         }
+
         //1   for 3 +  1 for 9 +  left now is 2 || right =>   1 for 20 +  ; 
+        // LeetCode 104
         public int MaximmumDepthEasy2(TreeNode curr)
         {
             if (curr is null) return 0;
@@ -514,20 +511,40 @@ namespace BinaryTreees
             return IsPathSum(root, Value);
         }
 
-        public bool PathSum_TeacherSolution(TreeNode root, int targetSum)
+        public bool PathSum_BetterSolution(TreeNode root, int targetSum)
         {
             if (root is null) return false;
 
             if (isLeafNode(root) && targetSum == root.data)
                 return true;
 
-            return PathSum_TeacherSolution(root.left, targetSum - root.data) ||
-                    PathSum_TeacherSolution(root.right, targetSum - root.data);
+            return PathSum_BetterSolution(root.left, targetSum - root.data) ||
+                    PathSum_BetterSolution(root.right, targetSum - root.data);
         }
 
 
+        private int _CountGoodNodesOnly(TreeNode curr, int maximmumSoFar)
+        {
+            if (curr is null)
+                return 0;
+            int currGoodNode = curr.data >= maximmumSoFar ? 1 : 0;
 
+            int LeftGoodNodes = _CountGoodNodesOnly(curr.left, int.Max(curr.data, maximmumSoFar));
+            int RightGoodNodes = _CountGoodNodesOnly(curr.right, int.Max(curr.data, maximmumSoFar));
 
+            return LeftGoodNodes + RightGoodNodes + currGoodNode;
+        }
+        //leet 1448
+        public int CountGoodNodesOnly(TreeNode root)
+        {
+            if (root is null)
+                return 0;
+
+            return _CountGoodNodesOnly(root, root.data);
+        }
 
     }
+
+
+
 }

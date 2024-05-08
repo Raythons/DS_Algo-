@@ -7,6 +7,7 @@ TreeNode root2 = new TreeNode(1);
 TreeNode root3 = new TreeNode(5);
 TreeNode root4 = new TreeNode(3);
 TreeNode root5 = new TreeNode(5);
+TreeNode root6 = new TreeNode(2);
 
 MyBinaryTree tree1IsPerfect = new MyBinaryTree(root);
 MyBinaryTree tree2IsCusions = new MyBinaryTree(root2);
@@ -14,15 +15,21 @@ MyBinaryTree tree3PathSum = new MyBinaryTree(root3);
 MyBinaryTree tree4SumOfLeftLeafs = new MyBinaryTree(root4);
 MyBinaryTree Tree5IsFull = new MyBinaryTree(root5);
 
-
-Tree5IsFull.Add(new List<int> { 2, 8 }, new List<char> { 'L', 'L' });
-Tree5IsFull.Add(new List<int> { 3, 5 }, new List<char> { 'R', 'R' });
-Tree5IsFull.root.left.right = new TreeNode(4);
-Tree5IsFull.root.right.left = new TreeNode(6);
-var  gg = Tree5IsFull.PrintLevelZigZag(Tree5IsFull.root);
+MyBinaryTree CountGoodNodesObly = new MyBinaryTree(root6);
 
 
-Console.WriteLine(Tree5IsFull.ParenthesizeCanonical(Tree5IsFull.root));
+CountGoodNodesObly.Add(new List<int> { 8, 2 }, new List<char> { 'L', 'L' });
+CountGoodNodesObly.Add(new List<int> { 20, 5 }, new List<char> { 'R', 'R' });
+
+CountGoodNodesObly.root.left.right = new TreeNode(4);
+CountGoodNodesObly.root.right.left = new TreeNode(6);
+
+
+Console.WriteLine(CountGoodNodesObly.CountGoodNodesOnly(root6));
+//var gg = Tree5IsFull.PrintLevelZigZag(Tree5IsFull.root);
+
+
+//Console.WriteLine(Tree5IsFull.ParenthesizeCanonical(Tree5IsFull.root));
 //foreach (var item in gg)
 //{
 //    foreach (var item2 in item)
@@ -34,7 +41,6 @@ Console.WriteLine(Tree5IsFull.ParenthesizeCanonical(Tree5IsFull.root));
 
 //Console.WriteLine(Tree5IsFull.IsFullTree(Tree5IsFull.root));
 Console.WriteLine("Hello, World!");
-Console.WriteLine(5/2);
 
 
 
