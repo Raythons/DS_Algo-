@@ -1,7 +1,0 @@
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\bin\Debug\Tree.exe.config
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\bin\Debug\Tree.exe
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\bin\Debug\Tree.pdb
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\obj\Debug\Tree.csproj.AssemblyReference.cache
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\obj\Debug\Tree.csproj.CoreCompileInputs.cache
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\obj\Debug\Tree.exe
-C:\Users\H1202\Desktop\DS_ALgo\DS\Tree\obj\Debug\Tree.pdb

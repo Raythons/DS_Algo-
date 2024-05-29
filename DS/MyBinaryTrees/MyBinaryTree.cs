@@ -102,7 +102,6 @@ namespace BinaryTreees
             return isMirror(root.left, root.right);
         }
 
-
         private string Parenthesize(TreeNode? curr, bool isLeft = true)
         {
             if (curr is null) return "()";
@@ -150,7 +149,6 @@ namespace BinaryTreees
 
             return Parenthesize(root.left, true) == Parenthesize(root.right, false);
         }
-
         public bool _IsFullTree(TreeNode curr)
         {
             if (curr is null)
@@ -287,7 +285,6 @@ namespace BinaryTreees
             Queue<TreeNode> NodesQueue = new();
             NodesQueue.Enqueue(root);
 
-
             while (NodesQueue.Count != 0)
             {
                 var currNode = NodesQueue.Peek();
@@ -331,32 +328,28 @@ namespace BinaryTreees
             Console.WriteLine();
         }
 
-
         // Deqeueu Is Data Strcture GG
         public List<List<int>> PrintLevelZigZag(TreeNode root)
         {
             LinkedList<TreeNode> NodesQueue = new();
-
             NodesQueue.AddFirst(root);
-
             bool ForwardLevel = true;
             List<List<int>> res = new();
-
             while (NodesQueue.Count != 0)
             {
                 int size = NodesQueue.Count;
                 List<int> Level = new List<int>();
                 while (size-- != 0)
                 {
+                    // 2- 3
+                    // 4 4 , 7, 8
                     TreeNode currNode;
                     if (ForwardLevel)
                     {
                         currNode = NodesQueue.First();
                         NodesQueue.RemoveFirst();
-
                         if (currNode.left is not null)
                             NodesQueue.AddLast(currNode.left);
-
                         if (currNode.right is not null)
                             NodesQueue.AddLast(currNode.right);
                     }
@@ -364,15 +357,12 @@ namespace BinaryTreees
                     {
                         currNode = NodesQueue.Last();
                         NodesQueue.RemoveLast();
-
                         if (currNode.right is not null)
                             NodesQueue.AddFirst(currNode.right);
-
                         if (currNode.left is not null)
                             NodesQueue.AddFirst(currNode.left);
                     }
                     Level.Add(currNode.data);
-
                 }
                 ForwardLevel = !ForwardLevel;
                 res.Add(Level);
@@ -381,11 +371,11 @@ namespace BinaryTreees
             return res;
         }
         //didnt get it 
+        // leetCode
         public (int, int) DiameterOfBinmaryTree(TreeNode root)
         {
             // delim , height
             (int delim, int height) res = (0, 0);
-
             if (isLeafNode(root))
                 return res;
 
@@ -394,21 +384,22 @@ namespace BinaryTreees
 
             if (root.left is not null)
             {
+                //(0,0)
                 left_dlim = DiameterOfBinmaryTree(root.left);
-
                 res.delim += 1 + left_dlim.height;
             }
             if (root.right is not null)
             {
+                //(1,1)
                 right_dlim = DiameterOfBinmaryTree(root.right);
-                res.height += 1 + right_dlim.height;
+                res.delim += 1 + right_dlim.height;
             }
 
+            //3
             res.delim = int.Max(res.delim, int.Max(left_dlim.delim, right_dlim.delim));
 
             res.height = 1 + int.Max(left_dlim.height, right_dlim.height);
             return res;
-
         }
         private bool _IsPerfectTreeBetter(TreeNode root, int h)
         {
