@@ -9,7 +9,7 @@
         {
             this.data = data;
             left = null;
-            left = null;
+            right = null;
         }
     }
 }

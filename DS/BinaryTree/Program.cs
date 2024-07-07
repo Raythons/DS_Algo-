@@ -33,6 +33,7 @@ Console.WriteLine(Tree5IsFull.ParenthesizeCanonical(Tree5IsFull.root));
 //}
 
 //Console.WriteLine(Tree5IsFull.IsFullTree(Tree5IsFull.root));
+
 Console.WriteLine("Hello, World!");
 Console.WriteLine(5/2);
 
