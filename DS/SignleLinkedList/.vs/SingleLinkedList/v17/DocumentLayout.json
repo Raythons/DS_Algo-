@@ -3,33 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26A2FA33-9AA9-4C2D-8F80-A454B49EF178}|..\\BinaryTree\\BinaryTreees.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\binarytree\\mybinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8025C5A-41AC-43B0-BC03-B0DB4AB66869}|..\\Trie\\Trie.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\trie\\trie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C6CB96-54D7-418D-9144-CA50153EEE5F}|SingleLinkedList.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\signlelinkedlist\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C6CB96-54D7-418D-9144-CA50153EEE5F}|SingleLinkedList.csproj|solutionrelative:node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C6CB96-54D7-418D-9144-CA50153EEE5F}|SingleLinkedList.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\signlelinkedlist\\singlylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C6CB96-54D7-418D-9144-CA50153EEE5F}|SingleLinkedList.csproj|solutionrelative:singlylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}|..\\Stack\\Stack.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\stack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\MyBinaryTrees\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2AFCB3A-21BA-4119-A7D4-325286A3FA10}|..\\Stack\\Stack.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\stack\\stack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53C66A63-1730-4AB2-9BFE-DFE17779BBAA}|..\\DobuleLinkedList\\DobuleLinkedList.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\dobulelinkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\MyBinaryTrees\\MyBinaryTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8025C5A-41AC-43B0-BC03-B0DB4AB66869}|..\\Trie\\Trie.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\trie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,111 +33,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyBinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\BinaryTree\\MyBinaryTree.cs",
-              "RelativeDocumentMoniker": "..\\BinaryTree\\MyBinaryTree.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\BinaryTree\\MyBinaryTree.cs",
-              "RelativeToolTip": "..\\BinaryTree\\MyBinaryTree.cs",
-              "ViewState": "AQIAABECAAAAIAAAAAD4vx8CAAAFAAAA",
+              "Title": "Trie.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Trie.cs",
+              "RelativeDocumentMoniker": "..\\Trie\\Trie.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Trie.cs",
+              "RelativeToolTip": "..\\Trie\\Trie.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAuwJYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T06:05:39.004Z",
+              "WhenOpened": "2024-07-17T15:26:42.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Node.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\Node.cs",
-              "RelativeDocumentMoniker": "Node.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\Node.cs",
-              "RelativeToolTip": "Node.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Trie\\Program.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Program.cs",
+              "RelativeToolTip": "..\\Trie\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T06:00:57.222Z",
+              "WhenOpened": "2024-07-17T15:26:23.336Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SinglyLinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\SinglyLinkedList.cs",
-              "RelativeDocumentMoniker": "SinglyLinkedList.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\SinglyLinkedList.cs",
-              "RelativeToolTip": "SinglyLinkedList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T06:00:56.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Stack\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Stack\\Program.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Stack\\Program.cs",
-              "RelativeToolTip": "..\\Stack\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T03:43:08.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Stack.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Stack\\Stack.cs",
-              "RelativeDocumentMoniker": "..\\Stack\\Stack.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Stack\\Stack.cs",
-              "RelativeToolTip": "..\\Stack\\Stack.cs",
-              "ViewState": "AQIAAB8AAAAAmpmZmRkSwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T03:42:58.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyBinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\MyBinaryTrees\\MyBinaryTree.cs",
-              "RelativeDocumentMoniker": "..\\MyBinaryTrees\\MyBinaryTree.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\MyBinaryTrees\\MyBinaryTree.cs",
-              "RelativeToolTip": "..\\MyBinaryTrees\\MyBinaryTree.cs",
-              "ViewState": "AQIAAB0CAAAAAAAAAAAIwCMCAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T03:29:22.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\MyBinaryTrees\\Program.cs",
-              "RelativeDocumentMoniker": "..\\MyBinaryTrees\\Program.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\MyBinaryTrees\\Program.cs",
-              "RelativeToolTip": "..\\MyBinaryTrees\\Program.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T03:28:55.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AQIAAB8BAACAMjMzM/MpwAoBAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-03-25T03:20:07.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\DobuleLinkedList\\Program.cs",
-              "RelativeDocumentMoniker": "..\\DobuleLinkedList\\Program.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\DobuleLinkedList\\Program.cs",
-              "RelativeToolTip": "..\\DobuleLinkedList\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T10:22:43.519Z"
             }
           ]
         },
