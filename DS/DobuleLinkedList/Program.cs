@@ -16,5 +16,5 @@ DoublyLinkedList List = new DoublyLinkedList();
 Console.WriteLine("#############");
 // Console.WriteLine(List.Head.Data);
 // Console.WriteLine(List.Tail.Data);
-Console.WriteLine(5/2);
+Console.WriteLine(5 / 2);
 Console.ReadLine();

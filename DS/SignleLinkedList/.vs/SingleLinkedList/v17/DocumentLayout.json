@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68D60886-6C00-4127-9ADE-6B7DC378DDB9}|..\\Heap\\Heap.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\heap\\heap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8025C5A-41AC-43B0-BC03-B0DB4AB66869}|..\\Trie\\Trie.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\trie\\trie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -33,19 +36,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Heap.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Heap\\Heap.cs",
+              "RelativeDocumentMoniker": "..\\Heap\\Heap.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Heap\\Heap.cs",
+              "RelativeToolTip": "..\\Heap\\Heap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:26:55.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Trie.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Trie.cs",
               "RelativeDocumentMoniker": "..\\Trie\\Trie.cs",
               "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Trie.cs",
               "RelativeToolTip": "..\\Trie\\Trie.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAuwJYAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T15:26:42.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Trie\\Program.cs",
               "RelativeDocumentMoniker": "..\\Trie\\Program.cs",
@@ -53,8 +69,7 @@
               "RelativeToolTip": "..\\Trie\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T15:26:23.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T15:26:23.336Z"
             }
           ]
         },

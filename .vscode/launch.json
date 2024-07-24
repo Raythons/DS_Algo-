@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/DS/Stack/bin/Debug/net7.0/Stack.dll",
+            "program": "${workspaceFolder}/DS/SignleLinkedList/bin/Debug/net7.0/SingleLinkedList.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/DS/Stack",
+            "cwd": "${workspaceFolder}/DS/SignleLinkedList",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
