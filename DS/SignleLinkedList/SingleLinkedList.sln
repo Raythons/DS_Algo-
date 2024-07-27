@@ -17,9 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBinaryTrees", "..\MyBinar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreees", "..\BinaryTree\BinaryTreees.csproj", "{26A2FA33-9AA9-4C2D-8F80-A454B49EF178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "..\Trie\Trie.csproj", "{A8025C5A-41AC-43B0-BC03-B0DB4AB66869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trie", "..\Trie\Trie.csproj", "{A8025C5A-41AC-43B0-BC03-B0DB4AB66869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap", "..\Heap\Heap.csproj", "{68D60886-6C00-4127-9ADE-6B7DC378DDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap", "..\Heap\Heap.csproj", "{68D60886-6C00-4127-9ADE-6B7DC378DDB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "..\AVLTree\AVLTree.csproj", "{BDCA7F77-53AA-40EF-96F3-58FD4D1B074A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{68D60886-6C00-4127-9ADE-6B7DC378DDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D60886-6C00-4127-9ADE-6B7DC378DDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D60886-6C00-4127-9ADE-6B7DC378DDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCA7F77-53AA-40EF-96F3-58FD4D1B074A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCA7F77-53AA-40EF-96F3-58FD4D1B074A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCA7F77-53AA-40EF-96F3-58FD4D1B074A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCA7F77-53AA-40EF-96F3-58FD4D1B074A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
