@@ -3,6 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\binarysearch\\_436rightinterval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\algorithims.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\binarysearch\\441arrangingcoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\binarysearch\\1482mindaystobloom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\binarysearch\\1238smallestdevisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\sorting\\1005maximizesuofarrayafterknegations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDCA7F77-53AA-40EF-96F3-58FD4D1B074A}|..\\AVLTree\\AVLTree.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\avltree\\clsavltree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -13,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,16 +50,100 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_436RightInterval.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\_436RightInterval.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\BinarySearch\\_436RightInterval.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\_436RightInterval.cs",
+              "RelativeToolTip": "..\\Algorithims\\BinarySearch\\_436RightInterval.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:08:57.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Algorithims.csproj",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Algorithims.csproj",
+              "RelativeDocumentMoniker": "..\\Algorithims\\Algorithims.csproj",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Algorithims.csproj",
+              "RelativeToolTip": "..\\Algorithims\\Algorithims.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-06T20:50:38.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "441ArrangingCoins.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\441ArrangingCoins.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\BinarySearch\\441ArrangingCoins.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\441ArrangingCoins.cs",
+              "RelativeToolTip": "..\\Algorithims\\BinarySearch\\441ArrangingCoins.cs",
+              "ViewState": "AQIAAAYAAABAMzMzM7MSwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:07:27.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "1482MinDaysToBloom.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\1482MinDaysToBloom.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\BinarySearch\\1482MinDaysToBloom.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\1482MinDaysToBloom.cs",
+              "RelativeToolTip": "..\\Algorithims\\BinarySearch\\1482MinDaysToBloom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:41:16.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "1238SmallestDevisor.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\1238SmallestDevisor.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\BinarySearch\\1238SmallestDevisor.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BinarySearch\\1238SmallestDevisor.cs",
+              "RelativeToolTip": "..\\Algorithims\\BinarySearch\\1238SmallestDevisor.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:40:29.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "1005MaximizeSuOfArrayAfterKNegations.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Sorting\\1005MaximizeSuOfArrayAfterKNegations.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\Sorting\\1005MaximizeSuOfArrayAfterKNegations.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Sorting\\1005MaximizeSuOfArrayAfterKNegations.cs",
+              "RelativeToolTip": "..\\Algorithims\\Sorting\\1005MaximizeSuOfArrayAfterKNegations.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:38:13.118Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\Program.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Program.cs",
+              "RelativeToolTip": "..\\Algorithims\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAswDAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T04:03:45.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "clsAvlTree.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\AVLTree\\clsAvlTree.cs",
               "RelativeDocumentMoniker": "..\\AVLTree\\clsAvlTree.cs",
               "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\AVLTree\\clsAvlTree.cs",
               "RelativeToolTip": "..\\AVLTree\\clsAvlTree.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA/wBsAAAAYAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswBsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T21:19:59.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T21:19:59.424Z"
             }
           ]
         },

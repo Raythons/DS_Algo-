@@ -1,0 +1,15 @@
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\bin\Debug\net7.0\Algorithims.exe
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\bin\Debug\net7.0\Algorithims.deps.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\bin\Debug\net7.0\Algorithims.runtimeconfig.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\bin\Debug\net7.0\Algorithims.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\bin\Debug\net7.0\Algorithims.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.AssemblyInfoInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.AssemblyInfo.cs
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.sourcelink.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\refint\Algorithims.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\Algorithims.genruntimeconfig.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\Algorithims\obj\Debug\net7.0\ref\Algorithims.dll
