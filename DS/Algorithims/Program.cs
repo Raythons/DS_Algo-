@@ -1,14 +1,61 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Algorithims;
+using Algorithims.BFS;
+using Algorithims.Dfs;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Numerics;
+using Graph = System.Collections.Generic.List<System.Collections.Generic.List<int>>;
 
 Console.WriteLine("Hello, World!");
 
+int[][] grid1 = new int[][]
+{
+    new int[] { 1, 1, 1, 0, 0 },
+    new int[] { 0, 1, 1, 1, 1 },
+    new int[] { 0, 0, 0, 0, 0 },
+    new int[] { 1, 0, 0, 0, 0 },
+    new int[] { 1, 1, 0, 1, 1 }
+};
+
+int[][] grid2 = new int[][]
+{
+    new int[] { 1, 1, 1, 0, 0 },
+    new int[] { 0, 0, 1, 1, 1 },
+    new int[] { 0, 1, 0, 0, 0 },
+    new int[] { 1, 0, 1, 1, 0 },
+    new int[] { 0, 1, 0, 1, 0 }
+};
+
+//Console.WriteLine(_1905SubIslands.CountSubIslands(grid1, grid2));
+
+//var arr =   new int[] { 3,-1 };
+
+var s = "dcab";
+
+//_752OpenLock.Run();
+//_417WaterFlow.Run();
+//_1129ShortestAlternatingPaths.Run();
+//_365WaterAndJug.Run();
+_773SlidingPuzzle.Run();
+//_2049MinimumOperations.Run();
 
 
-var arr =   new int[] { 3,-1 };
+//Console.WriteLine(_1202SmallestStringWithSwap.SmallestStringWithSwaps(s, paris));
+
+//Console.WriteLine("####_785IsBipartite$$$$");
+//_785IsBipartite.Run();
+//Console.WriteLine("####_785IsBipartite$$$$");
+
+//Console.WriteLine("####_1466MinReorder$$$$");
+//_1466MinReorder.Run();
+//Console.WriteLine("####_1466MinReorder$$$$");
+
+//Console.WriteLine("####_1631MinimumEffortPath$$$$");
+//_1631MinimumEffortPath.Run();
+//Console.WriteLine("####_1631MinimumEffortPath$$$$");
+
 //var arr = new List<int>() { 3, -1, 0, 2 };
 
 //arr = CountSortWithNegative(arr);
@@ -18,8 +65,22 @@ var arr =   new int[] { 3,-1 };
 //}
 
 
-//var LargestNum = MaximizeSuOfArrayAfterKNegations(arr, 3);
-//Console.WriteLine(LargestNum);
+//GraphOfEdges.CreateAndAddAndPrint();
+//GraphOfHashSet.CreateAndAddAndPrint();
+//AirLineGraph.CreateAndAddAndPrint();
+//ImageAsGraph.CreateAndAddAndPrint();
+var matrix = new int[][] { new int[] { 1, 1 }, new int[] { 1, 2 } };
+//Console.WriteLine(MatrixDfs.ColoringBorder(matrix, 0, 0, 3));
+var matrix_1559 = new char[][] 
+                        {
+                            new char[] { 'a', 'b', 'b',  },
+                            new char[] { 'b', 'z', 'b',},
+                            new char[] { 'b', 'b', 'a',  },
+                        };
+//new char[] { 'c', 'c', 'c', 'a' }, new char[] { 'c', 'd', 'c', 'c' },
+//new char[] { 'c', 'c', 'e', 'c' }, new char[] { 'f', 'c', 'c', 'c' } };
+//Console.WriteLine(_1559Cycels.ContainsCycle(matrix_1559));
+
 
 
 
@@ -30,8 +91,6 @@ var idx = BinarySearchFirstOccur(arr2, 4);
 var _436intervals = new int[] []{ new int []{ 3, 4 }, new int[] { 2, 3 }, new int[] { 1, 2 }, };
 
 
-var gg = 4;
-Console.WriteLine(MySqrt(gg));
 
 static int MySqrt(int x)
 {
