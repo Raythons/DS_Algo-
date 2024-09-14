@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Algorithims;
 using Algorithims.BFS;
+using Algorithims.DB;
 using Algorithims.Dfs;
+using Algorithims.Topo;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;
@@ -33,12 +35,17 @@ int[][] grid2 = new int[][]
 //var arr =   new int[] { 3,-1 };
 
 var s = "dcab";
-
+//SubsetSumProblem.Run();
+//_1691MaximmunHeightByCupidos.Run();
+//_198RobberHouse.Run();
+_309ButSell.Run();
 //_752OpenLock.Run();
 //_417WaterFlow.Run();
 //_1129ShortestAlternatingPaths.Run();
 //_365WaterAndJug.Run();
-_773SlidingPuzzle.Run();
+//_773SlidingPuzzle.Run();
+//_934ShortestBridge.Run();
+_2050ParallelCoursesIII.Run();
 //_2049MinimumOperations.Run();
 
 

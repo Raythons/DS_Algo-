@@ -3,34 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_773slidingpuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\309butsell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_752openlock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\imageasgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_417waterflow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_1129shortestalternatingpaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_1306jumpgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_2059minimumoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_365waterandjug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\_261isvalidtree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\bfs\\basicbfs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\1691maximmunheightbycupidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,102 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_261IsValidTree.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_261IsValidTree.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_261IsValidTree.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_261IsValidTree.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_261IsValidTree.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T23:02:12.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BasicBFS.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\BasicBFS.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\BasicBFS.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\BasicBFS.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\BasicBFS.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T22:59:58.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_773SlidingPuzzle.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_773SlidingPuzzle.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_773SlidingPuzzle.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_773SlidingPuzzle.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_773SlidingPuzzle.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAOwDIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T21:31:42.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_365WaterAndJug.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_365WaterAndJug.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_365WaterAndJug.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_365WaterAndJug.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_365WaterAndJug.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T21:29:27.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_1306JumpGame.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_1306JumpGame.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_1306JumpGame.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_1306JumpGame.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_1306JumpGame.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T21:48:01.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_2059MinimumOperations.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_2059MinimumOperations.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_2059MinimumOperations.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_2059MinimumOperations.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_2059MinimumOperations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:22:22.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_752OpenLock.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_752OpenLock.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_752OpenLock.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_752OpenLock.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_752OpenLock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ImageAsGraph.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\ImageAsGraph.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\ImageAsGraph.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\ImageAsGraph.cs",
+              "RelativeToolTip": "..\\Algorithims\\ImageAsGraph.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:22:22.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_1129ShortestAlternatingPaths.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_1129ShortestAlternatingPaths.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_1129ShortestAlternatingPaths.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_1129ShortestAlternatingPaths.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_1129ShortestAlternatingPaths.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwFEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:54:33.327Z"
+              "WhenOpened": "2024-09-13T20:33:17.197Z"
             },
             {
               "$type": "Document",
@@ -161,22 +56,36 @@
               "RelativeDocumentMoniker": "..\\Algorithims\\Program.cs",
               "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Program.cs",
               "RelativeToolTip": "..\\Algorithims\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAASAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T22:26:59.748Z",
+              "WhenOpened": "2024-09-13T20:33:00.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_417WaterFlow.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_417WaterFlow.cs",
-              "RelativeDocumentMoniker": "..\\Algorithims\\BFS\\_417WaterFlow.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\BFS\\_417WaterFlow.cs",
-              "RelativeToolTip": "..\\Algorithims\\BFS\\_417WaterFlow.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAgwE8AAABnAAAA",
+              "Title": "1691MaximmunHeightByCupidos.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
+              "RelativeToolTip": "..\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T14:09:23.367Z"
+              "WhenOpened": "2024-09-13T20:13:28.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "309ButSell.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\309ButSell.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\DB\\309ButSell.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\309ButSell.cs",
+              "RelativeToolTip": "..\\Algorithims\\DB\\309ButSell.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAWwCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:39:13.8Z",
+              "EditorCaption": ""
             }
           ]
         },
