@@ -1,0 +1,15 @@
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\bin\Debug\net7.0\LeetCode.exe
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\bin\Debug\net7.0\LeetCode.deps.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\bin\Debug\net7.0\LeetCode.runtimeconfig.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\bin\Debug\net7.0\LeetCode.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\bin\Debug\net7.0\LeetCode.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.AssemblyInfoInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.AssemblyInfo.cs
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.csproj.CoreCompileInputs.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.sourcelink.json
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\refint\LeetCode.dll
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.pdb
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\LeetCode.genruntimeconfig.cache
+C:\Users\H1202\Desktop\DS_ALgo\DS\LeetCode\obj\Debug\net7.0\ref\LeetCode.dll

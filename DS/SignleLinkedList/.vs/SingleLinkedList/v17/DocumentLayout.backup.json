@@ -3,16 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\309butsell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_958completeness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_973kclosestpointstoorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\1991findmiddleelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\121besttimetobuyandsell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\1360numberbetween2days.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\_746minimmuncost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C6CB96-54D7-418D-9144-CA50153EEE5F}|SingleLinkedList.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\signlelinkedlist\\leetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C6CB96-54D7-418D-9144-CA50153EEE5F}|SingleLinkedList.csproj|solutionrelative:leetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\imageasgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\_198robberhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\309butsell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\1691maximmunheightbycupidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\codeforcesround972div2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\db\\subsetsumproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D427571A-384C-4F1C-8579-B3647A64135C}|..\\Algorithims\\Algorithims.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\algorithims\\imageasgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +56,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +72,141 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_958Completeness.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_958Completeness.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_958Completeness.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_958Completeness.cs",
+              "RelativeToolTip": "..\\LeetCode\\_958Completeness.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:39:41.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_973KClosestPointstoOrigin.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_973KClosestPointstoOrigin.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_973KClosestPointstoOrigin.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_973KClosestPointstoOrigin.cs",
+              "RelativeToolTip": "..\\LeetCode\\_973KClosestPointstoOrigin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T10:01:09.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "1991FindMiddleElement.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\1991FindMiddleElement.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\1991FindMiddleElement.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\1991FindMiddleElement.cs",
+              "RelativeToolTip": "..\\LeetCode\\1991FindMiddleElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:46:44.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "121BestTimeToBuyAndSell.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\121BestTimeToBuyAndSell.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\121BestTimeToBuyAndSell.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\121BestTimeToBuyAndSell.cs",
+              "RelativeToolTip": "..\\LeetCode\\121BestTimeToBuyAndSell.cs",
+              "ViewState": "AgIAACYAAADAzMzMzAwmwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:17:20.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_746MinimmunCost.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\_746MinimmunCost.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\DB\\_746MinimmunCost.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\_746MinimmunCost.cs",
+              "RelativeToolTip": "..\\Algorithims\\DB\\_746MinimmunCost.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:32:53.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "1360NumberBetween2Days.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\1360NumberBetween2Days.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\1360NumberBetween2Days.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\1360NumberBetween2Days.cs",
+              "RelativeToolTip": "..\\LeetCode\\1360NumberBetween2Days.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:28:39.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\Program.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\Program.cs",
+              "RelativeToolTip": "..\\LeetCode\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:27:53.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeetCode.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\LeetCode.cs",
+              "RelativeDocumentMoniker": "LeetCode.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\LeetCode.cs",
+              "RelativeToolTip": "LeetCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:27:29.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_198RobberHouse.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\_198RobberHouse.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\DB\\_198RobberHouse.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\_198RobberHouse.cs",
+              "RelativeToolTip": "..\\Algorithims\\DB\\_198RobberHouse.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:03:23.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubsetSumProblem.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\SubsetSumProblem.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\DB\\SubsetSumProblem.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\SubsetSumProblem.cs",
+              "RelativeToolTip": "..\\Algorithims\\DB\\SubsetSumProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:03:10.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CodeForcesRound972Div2.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\CodeForcesRound972Div2.cs",
+              "RelativeDocumentMoniker": "..\\Algorithims\\DB\\CodeForcesRound972Div2.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\CodeForcesRound972Div2.cs",
+              "RelativeToolTip": "..\\Algorithims\\DB\\CodeForcesRound972Div2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:53:35.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ImageAsGraph.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\ImageAsGraph.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\ImageAsGraph.cs",
@@ -50,42 +218,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Program.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\Program.cs",
               "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Program.cs",
               "RelativeToolTip": "..\\Algorithims\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T20:33:00.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T20:33:00.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "1691MaximmunHeightByCupidos.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
               "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
               "RelativeToolTip": "..\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T20:13:28.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T20:13:28.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "309ButSell.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\309ButSell.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\309ButSell.cs",
               "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\309ButSell.cs",
               "RelativeToolTip": "..\\Algorithims\\DB\\309ButSell.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAWwCgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAMAowCgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:39:13.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T19:39:13.8Z"
             }
           ]
         },
