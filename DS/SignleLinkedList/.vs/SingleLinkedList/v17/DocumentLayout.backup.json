@@ -3,16 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_739dailytempature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_22generateparenthes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\stackdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_230kthsmallestnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_128lcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_103binarytreezigzag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_36validsudoku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE1F0AF3-EFC5-49C8-AAEA-79723481A4FA}|..\\LeetCode\\LeetCode.csproj|c:\\users\\h1202\\desktop\\ds_algo\\ds\\leetcode\\_958completeness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -65,7 +80,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,7 +96,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_739DailyTempature.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_739DailyTempature.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_739DailyTempature.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_739DailyTempature.cs",
+              "RelativeToolTip": "..\\LeetCode\\_739DailyTempature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T04:59:41.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_22GenerateParenthes.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_22GenerateParenthes.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_22GenerateParenthes.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_22GenerateParenthes.cs",
+              "RelativeToolTip": "..\\LeetCode\\_22GenerateParenthes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:16:31.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "StackDesign.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\StackDesign.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\StackDesign.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\StackDesign.cs",
+              "RelativeToolTip": "..\\LeetCode\\StackDesign.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T07:36:22.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TreeNode.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\TreeNode.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\TreeNode.cs",
@@ -89,25 +142,11 @@
               "RelativeToolTip": "..\\LeetCode\\TreeNode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:40:20.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T05:40:20.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_230KthSmallestNode.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_230KthSmallestNode.cs",
-              "RelativeDocumentMoniker": "..\\LeetCode\\_230KthSmallestNode.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_230KthSmallestNode.cs*",
-              "RelativeToolTip": "..\\LeetCode\\_230KthSmallestNode.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:37:52.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "_103BinaryTreeZigZag.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_103BinaryTreeZigZag.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\_103BinaryTreeZigZag.cs",
@@ -115,12 +154,11 @@
               "RelativeToolTip": "..\\LeetCode\\_103BinaryTreeZigZag.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAiwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T01:32:55.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T01:32:55.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "_973KClosestPointstoOrigin.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_973KClosestPointstoOrigin.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\_973KClosestPointstoOrigin.cs",
@@ -132,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "1991FindMiddleElement.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\1991FindMiddleElement.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\1991FindMiddleElement.cs",
@@ -144,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "121BestTimeToBuyAndSell.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\121BestTimeToBuyAndSell.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\121BestTimeToBuyAndSell.cs",
@@ -156,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "_746MinimmunCost.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\_746MinimmunCost.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\_746MinimmunCost.cs",
@@ -168,7 +206,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\Program.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\Program.cs",
+              "RelativeToolTip": "..\\LeetCode\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:27:53.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_230KthSmallestNode.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_230KthSmallestNode.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_230KthSmallestNode.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_230KthSmallestNode.cs",
+              "RelativeToolTip": "..\\LeetCode\\_230KthSmallestNode.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:37:52.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_36ValidSudoku.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_36ValidSudoku.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_36ValidSudoku.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_36ValidSudoku.cs",
+              "RelativeToolTip": "..\\LeetCode\\_36ValidSudoku.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:15:22.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_128LCN.cs",
+              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_128LCN.cs",
+              "RelativeDocumentMoniker": "..\\LeetCode\\_128LCN.cs",
+              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_128LCN.cs",
+              "RelativeToolTip": "..\\LeetCode\\_128LCN.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T05:13:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "1360NumberBetween2Days.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\1360NumberBetween2Days.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\1360NumberBetween2Days.cs",
@@ -180,20 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\Program.cs",
-              "RelativeDocumentMoniker": "..\\LeetCode\\Program.cs",
-              "ToolTip": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\Program.cs",
-              "RelativeToolTip": "..\\LeetCode\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:27:53.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "_958Completeness.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\LeetCode\\_958Completeness.cs",
               "RelativeDocumentMoniker": "..\\LeetCode\\_958Completeness.cs",
@@ -205,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "LeetCode.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\SignleLinkedList\\LeetCode.cs",
               "RelativeDocumentMoniker": "LeetCode.cs",
@@ -217,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "_198RobberHouse.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\_198RobberHouse.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\_198RobberHouse.cs",
@@ -229,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "SubsetSumProblem.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\SubsetSumProblem.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\SubsetSumProblem.cs",
@@ -241,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "CodeForcesRound972Div2.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\CodeForcesRound972Div2.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\CodeForcesRound972Div2.cs",
@@ -253,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ImageAsGraph.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\ImageAsGraph.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\ImageAsGraph.cs",
@@ -265,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\Program.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\Program.cs",
@@ -277,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "1691MaximmunHeightByCupidos.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\1691MaximmunHeightByCupidos.cs",
@@ -289,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "309ButSell.cs",
               "DocumentMoniker": "C:\\Users\\H1202\\Desktop\\DS_ALgo\\DS\\Algorithims\\DB\\309ButSell.cs",
               "RelativeDocumentMoniker": "..\\Algorithims\\DB\\309ButSell.cs",
