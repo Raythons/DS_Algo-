@@ -18,4 +18,10 @@ var gg = new int[] { 2, 3, -1, 8, 4 };
 //Console.WriteLine(_230KthSmallestNode.KthSmallest(treeNode2, 3));
 
 _128LCN.Run();
-MinStack.Run();
+//MinStack.Run();
+
+var trie = new Trie();
+trie.Insert("app");
+trie.Insert("apple");
+trie.Insert("add");
+trie.Search("app");
