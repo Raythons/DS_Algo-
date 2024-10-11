@@ -20,8 +20,9 @@ var gg = new int[] { 2, 3, -1, 8, 4 };
 _128LCN.Run();
 //MinStack.Run();
 
-var trie = new Trie();
-trie.Insert("app");
-trie.Insert("apple");
-trie.Insert("add");
-trie.Search("app");
+//var trie = new Trie();
+//trie.Insert("app");
+//trie.Insert("apple");
+//trie.Insert("add");
+//trie.Search("app");
+_88RemoveDuplicateII.Run();
